@@ -6,6 +6,14 @@
     "outDir": "./lib",
     "strict": true
   },
-  "include": ["src", "test"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+  "include": [
+    "src",
+    "test"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*",
+    "test/**/*.spec.ts",
+    "test/**/*.test.ts"
+  ]
 }
