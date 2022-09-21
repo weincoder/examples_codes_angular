@@ -1,7 +1,7 @@
 {
-  "name": "core-weincode",
-  "version": "1.0.2",
-  "description": "a little example about implement a transversal core for micro front-ends projects",
+  "name": "infraestructure-weincode",
+  "version": "1.0.0",
+  "description": "a little example about implement a transversal infraestructure for micro front-ends projects",
   "main": "index.js",
   "scripts": {
     "test": "jest --config jestconfig.json",
