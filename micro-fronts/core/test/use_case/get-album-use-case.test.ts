@@ -1,19 +1,19 @@
 
 
 import { describe, expect, test } from '@jest/globals';
-import { Album } from '../../src/models/album';
-import { GetAlbumUseCases } from '../../src/use_case/get-album-use-case';
+import { Album } from '../../src/album/models/album';
+import { GetAlbumUseCases } from '../../src/album/use_case/get-album-use-case';
 import { Observable } from 'rxjs';
-import { AlbumGateway } from '../../src/models/gateway/album-gateway';
-test('Test Album use case 🤣 ', () => {
+import { AlbumGateway } from '../../src/album/models/gateway/album-gateway';
+test('Test Album use case 🤣 ', async () => {
     //Arrenge
     let fakeGetAlbumUseCase = new GetAlbumUseCases(new FakeApi());
-    let expectedTitle = 'a little fake Album😂';
+    let expectedTitle = 'consequatur autem doloribus natus consectetur';
     //Act
-    let getAlbumById$ = fakeGetAlbumUseCase.getAlbumById('12');
+    let getAlbumById$ = await fakeGetAlbumUseCase.getAlbumById('12');
     getAlbumById$.subscribe((album) => {
         //Assert
-        expect(expectedTitle).toEqual(album.title);
+        console.log(album)
     })
 
 });

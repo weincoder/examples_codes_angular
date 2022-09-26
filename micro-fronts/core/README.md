@@ -8,5 +8,7 @@ npm i core-weincode
 ```
 
 ## Historial versiones 🌳
-1.0.0 Inicio del proyecto
-1.1.0 Se agrega la nueva entidad Album junto con sus casos de uso
+* 1.0.0 Inicio del proyecto 🎬🏁
+* 1.1.0 Se agrega la nueva entidad Album junto con sus casos de uso 💿
+* 1.1.1 Se agrega la documentación del paquete 📚
+* 1.1.2 Fix Test 🧪

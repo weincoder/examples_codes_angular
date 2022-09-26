@@ -1,6 +1,7 @@
 {
   "name": "infraestructure-weincode",
   "version": "1.0.0",
+  "type": "module",
   "description": "a little example about implement a transversal infraestructure for micro front-ends projects",
   "main": "index.js",
   "scripts": {
@@ -38,6 +39,8 @@
     "typescript": "^4.8.3"
   },
   "dependencies": {
+    "core-weincode": "^1.1.2",
+    "node-fetch": "^2.6.7",
     "rxjs": "^7.5.6"
   }
 }

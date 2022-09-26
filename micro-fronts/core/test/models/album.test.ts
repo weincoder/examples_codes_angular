@@ -1,6 +1,6 @@
 
 import {describe, expect, test} from '@jest/globals';
-import {Album} from '../../src/models/album';
+import {Album} from '../../src/album//models/album';
 test('Test Album the hardest test xD 🤣 ', () => {
     //Arrenge
     let fakeAlbum = new Album();
