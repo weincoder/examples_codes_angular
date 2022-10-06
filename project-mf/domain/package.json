@@ -1,6 +1,6 @@
 {
   "name": "core-weincode",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "a little example about implement a transversal core for micro front-ends projects",
   "main": "domain.js",
   "scripts": {
