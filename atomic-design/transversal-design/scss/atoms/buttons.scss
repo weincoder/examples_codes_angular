@@ -1,0 +1,32 @@
+@import "../fundations/atomos/btn.fundations.scss";
+
+.wc-btn{
+    border: none;
+    padding: 5px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: .8s;
+    &:active{
+        box-shadow: none;
+    }
+    &-primary {
+        @extend .wc-btn;
+        color: $btn_font_color;
+        background-color: $brand_primary_scale_00;
+
+        &:hover{
+            background-color: $brand_primary_scale_03;
+        }
+    }
+    &-secondary {
+        @extend .wc-btn;
+        color: $btn_font_color;
+        background-color: $brand_primary_scale_04;
+
+        &:hover{
+            background-color: $brand_primary_scale_06;
+        }
+    }
+}

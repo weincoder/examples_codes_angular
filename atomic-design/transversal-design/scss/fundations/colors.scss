@@ -1,0 +1,63 @@
+@import "../tokens/colors.scss";
+
+@mixin constructor($color){
+  color:$color;
+  &_background{
+    background-color: $color;
+  }
+}
+// Brand colors
+.white_brand{
+  @include constructor(#fff)
+}
+
+.brand_primary_scale_00{
+  @include constructor($brand_primary_scale_00)
+}
+.brand_primary_scale_01{
+  @include constructor($brand_primary_scale_01)
+}
+.brand_primary_scale_03{
+  @include constructor($brand_primary_scale_03)
+}
+.brand_primary_scale_04{
+  @include constructor($brand_primary_scale_04)
+}
+.brand_primary_scale_05{
+  @include constructor($brand_primary_scale_05)
+}
+.brand_primary_scale_06{
+  @include constructor($brand_primary_scale_06)
+}
+.brand_secondary{
+  @include constructor($brand_secondary)
+}
+.brand_tertiary{
+  @include constructor($brand_tertiary)
+}
+// Action colors
+.primary_action{
+  @include constructor($primary_action)
+}
+.secondary_action{
+  @include constructor($secondary_action)
+}
+// Boolean colors
+.positive{
+  @include constructor($positive)
+}
+.negative{
+  @include constructor($negative)
+}
+//Backgrounds
+.background_blue{
+  background-color: $background_blue;
+}
+
+//Basic colors
+.white_normal{
+  @include constructor($white_normal)
+}
+.black_normal{
+  @include constructor($black_normal)
+}
