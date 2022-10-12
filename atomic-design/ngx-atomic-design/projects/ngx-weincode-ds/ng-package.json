@@ -3,7 +3,7 @@
   "dest": "../../dist/ngx-weincode-ds",
   "assets": [
     "CHANGELOG.md",
-    "./styles/**/*.theme.scss"
+    "./assets/transversal_design_1.0.0.min.css"
   ],
   "lib": {
     "entryFile": "src/public-api.ts"

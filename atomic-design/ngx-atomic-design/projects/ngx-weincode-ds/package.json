@@ -1,6 +1,6 @@
 {
   "name": "ngx-weincode-ds",
-  "version": "0.0.1",
+  "version": "0.0.10",
   "peerDependencies": {
     "@angular/common": "^14.1.0",
     "@angular/core": "^14.1.0"

@@ -1,0 +1,16 @@
+@import "../fundations/atomos/links.fundations.scss";
+.wc-a{
+    border-radius: 2px;
+    color: $links_primary_color;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.wc-a:hover {
+    background-color: $links_primary_color_hover_bg;
+    color: $links_primary_color_hover;
+}

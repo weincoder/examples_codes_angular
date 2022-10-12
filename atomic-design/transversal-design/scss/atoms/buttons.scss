@@ -14,19 +14,19 @@
     &-primary {
         @extend .wc-btn;
         color: $btn_font_color;
-        background-color: $brand_primary_scale_00;
+        background-color: $btn_primary_bg;
 
         &:hover{
-            background-color: $brand_primary_scale_03;
+            background-color: $btn_primary_bg_hover;
         }
     }
     &-secondary {
         @extend .wc-btn;
         color: $btn_font_color;
-        background-color: $brand_primary_scale_04;
+        background-color: $btn_secondary_bg;
 
         &:hover{
-            background-color: $brand_primary_scale_06;
+            background-color: $btn_secondary_bg_hover;
         }
     }
 }
