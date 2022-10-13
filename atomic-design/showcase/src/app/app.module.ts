@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgxWeincodeDsComponent, NgxWeincodeDsModule } from 'ngx-weincode-ds';
+import { NgxWeincodeDsModule } from 'ngx-weincode-ds';
 
 
 import { AppRoutingModule } from './app-routing.module';

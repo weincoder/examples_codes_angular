@@ -21,7 +21,6 @@ export class WcBtnDirective {
   constructor(private changeDector: ChangeDetectorRef) {
   }
   ngAfterViewInit(): void {
-    console.log(this.btnStyle)
     this.classes = BUTTON_CLASSES[this.btnStyle];
     this.changeDector.detectChanges();
   }
