@@ -1,6 +1,6 @@
 {
   "name": "transversal-design",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a little example about atomic design",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
     "gulp-minify-css": "^1.2.4",
     "gulp-run": "^1.7.1",
     "node-sass": "^7.0.3"
-  }
+  },
+  "style": "public/stylesheets/min/transversal_design_1.0.0.min.css"
 }
